@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./white-clouds-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* padding-top: 10rem; */
+    /* padding-bottom: 100rem; */
+}
+
+
+/* background-color: #f5f0f5; */
+
+
+/* background-image: url(/cloudy-sky-cartoon.jpg); */
+
+
+/*##############################################navbar############################*/
+
+
+/* .xxx {
+    background-color: green;
+} */
+
+#mainNavbar {
+    /* border-top: 6px solid #F15025; */
+    border-top: 6px solid#ffc299 !important;
+    /* background-color: #242a33; */
+    background-color: #662900;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+#mainNavbar .navbar-brand {
+    display: block !important;
+    background-color: #ffc299;
+    padding: 5px 30px !important;
+    font-style: italic;
+    color: #f5f3f5;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    font-size: 20px;
+    padding: 10px 22px !important;
+    margin: 0 10px !important;
+    margin-top: 5px !important;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #f5f3f5;
+    background-color: rgb(206, 77, 17);
+    border-radius: 0px;
+}
+
+#mainNavbar .subColor {
+    color: black !important;
+}
+
+#mainNavbar .subColor.nav-link:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#mainNavbar .dropdown-item {
+    width: 350px !important;
+}
+
+@media (min-width:769px) {
+    #mainNavbar ul .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    #mainNavbar ul .dropdown>.dropdown-menu {
+        display: none;
+    }
+}
+
+#mainNavbar .imgSize {
+    width: 250px;
+}
+
+
+/* @media only screen and (min-width: 320px) and (max-width: 410) {
+    #mainNavbar .imgSize {
+        width: 220px !important;
+    }
+} */
+
+@media screen and (max-width: 410px) {
+    #mainNavbar .imgSize {
+        width: 220px !important;
+    }
+}
+
+@media screen and (width: 320px) {
+    #mainNavbar .imgSize {
+        width: 165.51px !important;
+    }
+}
+
+@media screen and (width: 360px) {
+    #mainNavbar .imgSize {
+        width: 182px !important;
+    }
+}

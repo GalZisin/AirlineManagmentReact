@@ -1,0 +1,18 @@
+.divStyle {
+    background-image: url(../para.jpg);
+    /* background-position: left; */
+    background-position-x: 10%;
+    background-position-y: 60%;
+    color: white;
+}
+
+.formStyle {
+    background-image: linear-gradient(#001f4d, #e6f0ff);
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1900px) {
+    .marginLeftDiv {
+        margin-left: 50px;
+    }
+}

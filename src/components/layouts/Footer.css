@@ -1,0 +1,25 @@
+#footer {
+    background-color: #662900;
+    color: white;
+}
+
+.footer-icons a {
+    color: #2a9134;
+    font-size: 50px;
+    transition: color 1s ease;
+}
+
+.footer-icons a:hover {
+    color: #f1fffa;
+}
+
+.services {
+    color: white;
+}
+
+.services .fa {
+    color: #F15025;
+    font-size: 30px;
+    background-color: #2D3142;
+    padding: 5px;
+}

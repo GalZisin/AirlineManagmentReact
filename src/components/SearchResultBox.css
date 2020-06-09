@@ -1,0 +1,21 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eqi-container1 div {
+    width: 50px;
+}
+
+.cardNoPosts {
+    text-align: center;
+}
+
+#button {
+    background-color: #ffbf80;
+    font-size: 25px;
+}
+
+#button :hover {
+    background-color: #f57d06;
+}

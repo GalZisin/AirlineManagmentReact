@@ -1,0 +1,148 @@
+/* .resultBox{
+    border-radius: 10;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.4),0px 0px 1px 0px rgba(0,0,0,0.4);
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 600px;
+    margin-top: 10px;
+}  */
+
+.showError {
+    /* border-color: #a94442 !important;     */
+    color: #a94442 !important;
+    /* margin-bottom: 15px;     */
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 15px;
+    /* margin: 8px 0;     */
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    font-weight: 600;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.cardNoPosts {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxSelect {
+    background-color: #e6ffff !important;
+    font-weight: 600 !important;
+    /* padding: 12px 15px;   
+width: 100%;    */
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.4), 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
+    /* background-color: #196666; */
+    background-image: url(./Aircraft_minimalistic_gray_planes_simple_colors_2560x1440.jpg);
+    background-position-y: 45%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* position: relative; */
+    align-content: middle;
+    /* min-height: 1vh;
+    max-height: 100vh; */
+}
+
+
+/* .mainHeader{} */
+
+.searchBox {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    height: 95px;
+    /* overflow-y: auto;
+    position: sticky;
+    top: 100px; */
+}
+
+.marginOfSearchBox {
+    margin-left: 10px;
+}
+
+.adminSearch {
+    margin-left: 0px;
+}
+
+
+/* .homeSearch {
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+/* @media only screen and (min-width: 600px) and (max-width: 1900px) {
+    .box {
+        width: 1500px;
+    }
+    input[type=text],
+    select {
+        padding: 12px 10px;
+    }
+} */
+
+
+/* @media only screen and (min-width: 320px) and (max-width: 1024px) { */
+
+
+/* @media screen and (max-width: 768px) { */
+
+
+/* .marginOfSearchBox {
+        width: 90%;
+        margin: 5px;
+    }
+    .box {
+        width: 100%;
+        height: 550px;
+    }
+    .adminSearch {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .homeSearch {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} */
+
+
+/*     
+     @media screen and (max-width: 767px) {
+            .form-inline input {
+             width: 90%;
+             margin: auto;
+            }
+            .form-inline label{ */
+
+
+/* width: 90%; */
+
+
+/* margin-left: 25px;
+         }
+             .form-inline button{ */
+
+
+/* width: 90%; */
+
+
+/* margin-left: 25px;
+            }
+        } */

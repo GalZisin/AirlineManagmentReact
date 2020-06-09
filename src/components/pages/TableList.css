@@ -1,0 +1,199 @@
+.tableFixHead {
+    overflow-y: auto;
+    height: 100px;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 175px;
+    text-align: center;
+}
+
+table.tableViews td {
+    font-weight: 500;
+    /* padding-right: 15px; */
+    /* padding-left: 10px; */
+    text-align: center;
+}
+
+table.tableViews th {
+    background-color: #003366;
+    color: white;
+    font-weight: 400;
+    /* padding-right: 15px;
+    padding-left: 10px; */
+}
+
+table.tableViews tbody tr:nth-child(odd) {
+    background-color: #e6e6e6ee !important;
+}
+
+table.tableViews tbody tr:nth-child(even) {
+    background-color: #d9d9d9 !important;
+}
+
+
+/* .tableWidth {
+    width: 100% !important;
+} */
+
+.dtdWidth {
+    width: 280px;
+}
+
+.ltdWidth {
+    width: 250px;
+}
+
+.adWidth {
+    width: 150px;
+}
+
+.iddWidth {
+    width: 80px;
+}
+
+.cndWidth {
+    width: 100px;
+}
+
+.ocdWidth {
+    width: 100px;
+}
+
+.dcdWidth {
+    width: 100px;
+}
+
+.rtdWidth {
+    width: 100px;
+}
+
+.ttdWidth {
+    width: 100px;
+}
+
+
+/* customer-ticket-table */
+
+.ticketIDWidth {
+    width: 30px;
+}
+
+.ticketFIDWidth {
+    width: 50px;
+}
+
+.ticketFNWidth {
+    width: 100px;
+}
+
+.ticketCNWidth {
+    width: 50px;
+}
+
+.ticketOCWidth {
+    width: 80px;
+}
+
+.ticketDCWidth {
+    width: 80px;
+}
+
+.ticketDTimeWidth {
+    width: 150px;
+}
+
+.ticketATimeWidth {
+    width: 200px;
+}
+
+.ticketCIDWidth {
+    width: 50px;
+}
+
+.ticketFNDWidth {
+    width: 20px;
+}
+
+.ticketLNDWidth {
+    width: 20px;
+}
+
+
+/* admin action*/
+
+.cActionW {
+    width: 200px;
+}
+
+
+/* company action*/
+
+.cFlightWidth {
+    width: 200px;
+}
+
+
+/* lepTop screen */
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .tableFixHead thead th {
+        top: 159px;
+    }
+    #editBtn {
+        padding-left: 22px !important;
+        padding-right: 21px !important;
+        margin-left: 14px !important;
+        margin-bottom: 5px !important;
+        margin-top: 5px !important;
+    }
+    #deletBtn {
+        margin-bottom: 5px !important;
+    }
+    /* company */
+    .cIdW {
+        width: 10px;
+    }
+    .cPasswordW {
+        width: 50px;
+    }
+    .cUserNameW {
+        width: 50px;
+    }
+    /* ------ */
+    /* customer-ticket-table */
+    .ticketIDWidth {
+        width: 30px;
+    }
+    .ticketFIDWidth {
+        width: 50px;
+    }
+    .ticketFNWidth {
+        width: 50px;
+    }
+    .ticketCNWidth {
+        width: 30px;
+    }
+    .ticketOCWidth {
+        width: 80px;
+    }
+    .ticketDCWidth {
+        width: 30px;
+    }
+    .ticketDTimeWidth {
+        width: 120px;
+    }
+    .ticketATimeWidth {
+        width: 120px;
+    }
+    .ticketCIDWidth {
+        width: 40px;
+    }
+    .ticketFNDWidth {
+        width: 20px;
+    }
+    .ticketLNDWidth {
+        width: 20px;
+    }
+}

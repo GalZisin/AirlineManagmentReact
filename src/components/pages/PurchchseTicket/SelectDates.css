@@ -1,0 +1,66 @@
+.calendarStyles {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white !important;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.headerStyle {
+    background-color: #001a66;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin-top: 190px;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    line-height: 80px;
+    min-height: 8vh;
+    max-height: 55vh;
+}
+
+.selectedFlights {
+    min-height: 10vh;
+    max-height: 55vh;
+    width: 100%;
+    background-color: rgba(234, 233, 232, 0.4);
+    margin-bottom: 20px;
+    border-width: 5px;
+    border-style: double;
+    border-color: lightgray;
+}
+
+.selectedDeparture {
+    background-color: green;
+    /* justify-content: center; */
+    display: 'flex';
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.selectedReturn {
+    background-color: green;
+    /* justify-content: center; */
+    display: 'flex';
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.purchaseBtn {
+    background-color: blue !important;
+    color: black;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
